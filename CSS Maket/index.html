@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block Aligment</title>
+    <style>
+        .headear,.content,.footer{
+            border: 1px solid black;
+            padding:20px ;
+        }
+        .main-event,.article-one,.article-two{ 
+            border: 5px dashed gray;
+            box-sizing: border-box;
+        }
+        html{
+            height: 100%;
+        } 
+        body{
+            height: 100%;
+        } 
+        .content{
+            height:50% ;
+        }
+        .main-event{
+            height: 60%;
+            width: 95%;
+            float: left;
+            margin-bottom:5vh ;
+        }
+        .article-one,.article-two{
+            height:30% ;
+            width: 45%;
+            float: left;
+        }
+        .article-two{
+            margin-left:5% ;
+        
+        }
+      
+
+    </style>
+</head>
+<body>
+    <header class="headear">
+        HEADEAR
+    </header >
+    <section class="content">
+        <main class="main-event">
+MAIN EVENT
+        </main >
+        <article class="article-one">
+ARTICLE 1
+        </article>
+        <article class="article-two">
+ARTICLE 2
+        </article>
+    </section>
+    <footer class="footer">
+        FOOTER
+    </footer>
+    
+</body>
+</html>
